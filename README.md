@@ -1,4 +1,4 @@
-# Angular2 Bootstrap Modal Component Demo - npm
+# Angular2 Bootstrap Modal Component Demo - webpack
 A demo of [ng2-bs3-modal](https://github.com/dougludlow/ng2-bs3-modal), showing how to use the component with webpack.
 
 ## Building this project
