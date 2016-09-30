@@ -7,7 +7,8 @@
   "scripts": {
     "start": "static .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "typings install && tsc -p ."
+    "clean": "rimraf *.woff2 *.woff *.svg *.ttf *.eot bundle.js",
+    "build": "npm run clean && typings install && webpack"
   },
   "dependencies": {
     "@angular/common": "^2.0.0",
@@ -31,6 +32,7 @@
     "css-loader": "^0.25.0",
     "file-loader": "^0.9.0",
     "node-static": "^0.7.8",
+    "rimraf": "^2.5.4",
     "style-loader": "^0.13.1",
     "ts-loader": "^0.8.2",
     "typescript": "^2.0.0",
